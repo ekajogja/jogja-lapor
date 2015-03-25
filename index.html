@@ -6,45 +6,56 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <style type="text/css">
-    	body {}
     	.container {
     		background-color: #fff;
     		max-width: 960px;
     	}
+      header, footer {
+        background-color: #2980b9;
+        padding: 5px;
+      }
     	h1, h4, p {
+        color: #2980b9;
     		text-align: center;
     		margin-bottom: 30px;
     		margin-top: 30px;
     	}
     	.button {
-    		text-align: center;
-    		margin-bottom: 20px;
+        margin-bottom: 20px;
+        text-align: center;
     	}
     	.btn {
+        color: #2980b9;
     		min-width: 300px;
     		padding: 20px;
     	}
+      .small {
+        padding: 4px;
+        min-width: 1px;
+      }
+      .white {
+        color: #fff;
+      }
     </style>
   </head>
   <body>
   	<div class="container row-fluid">
   		<div class="span12">
   			<header>
-  			  	<h1>JOGJA LAPOR!</h1>
-	  		  	<hr />
+  			  	<h1 class="white">JOGJA LAPOR!</h1>
 	  		</header>
-  		  	<h4>Saya mau melaporkan:</h4>
-  		 
+  		  	<h4>Saya mau melaporkan</h4>
+
   		  	  	<div class="button">
   	  				<button class="btn large main">KRIMINAL - KEJAHATAN - TAWURAN</button>
   	  				<div class="button hidden mainDesc">
-  	  					<h4>Kejahatan di</h4>
+  	  					<h4>kejahatan di</h4>
   	  					<div class="button">
   	  						<button class="btn large submain">KOTA</button>
   	  						<div class="button hidden submainDesc">
   	  							<h4>Kota</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS POLRESTA</button></a>
+  	  								<a href="tel:0274512511"><button class="btn large">TELEPON/SMS POLTABES</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -56,7 +67,7 @@
   	  						<div class="button hidden submainDesc">
   	  							<h4>Sleman</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS POLRES SLEMAN</button></a>
+  	  								<a href="tel:0274868410"><button class="btn large">TELEPON/SMS POLRES SLEMAN</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -68,7 +79,7 @@
   	  						<div class="button hidden submainDesc">
   	  							<h4>Bantul</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS POLRES BANTUL</button></a>
+  	  								<a href="tel:0274367111"><button class="btn large">TELEPON/SMS POLRES BANTUL</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -80,7 +91,7 @@
   	  						<div class="button hidden submainDesc">
   	  							<h4>Kulonprogo</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS POLRES KULONPROGO</button></a>
+  	  								<a href="tel:0274773185"><button class="btn large">TELEPON/SMS POLRES KULONPROGO</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -92,7 +103,7 @@
   	  						<div class="button hidden submainDesc">
   	  							<h4>Gunungkidul</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS POLRES GUNUNGKIDUL</button></a>
+  	  								<a href="tel:0274391410"><button class="btn large">TELEPON/SMS POLRES GUNUNGKIDUL</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -107,13 +118,13 @@
   	  			<div class="button">
 					<button class="btn large main">KEBAKARAN - LEDAKAN - BENCANA</button>
 					<div class="button hidden">
-  	  					<h4>Bencana di</h4>
+  	  					<h4>bencana/kebakaran di</h4>
   	  					<div class="button">
   	  						<button class="btn large submain">KOTA</button>
   	  						<div class="button hidden submainDesc">
   	  							<h4>Kota</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS BPBD KOTA</button></a>
+  	  								<a href="tel:0274555585"><button class="btn large">TELEPON/SMS BPBD KOTA</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -125,7 +136,7 @@
   	  						<div class="button hidden submainDesc">
   	  							<h4>Sleman</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS BPBD SLEMAN</button></a>
+  	  								<a href="tel:0274869375"><button class="btn large">TELEPON/SMS BPBD SLEMAN</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -137,7 +148,7 @@
   	  						<div class="button hidden submainDesc">
   	  							<h4>Bantul</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS BPBD BANTUL</button></a>
+  	  								<a href="tel:0274368222"><button class="btn large">TELEPON/SMS BPBD BANTUL</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -149,7 +160,7 @@
   	  						<div class="button hidden submainDesc">
   	  							<h4>Kulonprogo</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS BPBD KULONPROGO</button></a>
+  	  								<a href="tel:0274775113"><button class="btn large">TELEPON/SMS BPBD KULONPROGO</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -161,7 +172,7 @@
   	  						<div class="button hidden submainDesc">
   	  							<h4>Gunungkidul</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS BPBD GUNUNGKIDUL</button></a>
+  	  								<a href="tel:0274394091"><button class="btn large">TELEPON/SMS BPBD GUNUNGKIDUL</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -174,15 +185,15 @@
   	  				</div>
 				</div>
 				<div class="button">
-					<button class="btn large main">KEKERASAN DALAM RUMAH TANGGA</button>
+					<button class="btn large main">KONSUMSI/TRANSAKSI NARKOBA</button>
 					<div class="button hidden">
-  	  					<h4>Kekerasan dalam rumah tangga di</h4>
+  	  					<h4>penyalahgunaan / transaksi narkoba di</h4>
   	  					<div class="button">
   	  						<button class="btn large submain">KOTA</button>
   	  						<div class="button hidden submainDesc">
   	  							<h4>Kota</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS POLRESTA</button></a>
+  	  								<a href="tel:0274563139"><button class="btn large">TELEPON/SMS POLTABES</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -194,7 +205,7 @@
   	  						<div class="button hidden submainDesc">
   	  							<h4>Sleman</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS POLRES SLEMAN</button></a>
+  	  								<a href="tel:0274868620"><button class="btn large">TELEPON/SMS POLRES SLEMAN</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -206,7 +217,7 @@
   	  						<div class="button hidden submainDesc">
   	  							<h4>Bantul</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS POLRES BANTUL</button></a>
+  	  								<a href="tel:0274367570"><button class="btn large">TELEPON/SMS POLRES BANTUL</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -218,7 +229,7 @@
   	  						<div class="button hidden submainDesc">
   	  							<h4>Kulonprogo</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS POLRES KULONPROGO</button></a>
+  	  								<a href="tel:0274774287"><button class="btn large">TELEPON/SMS POLRES KULONPROGO</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -230,7 +241,7 @@
   	  						<div class="button hidden submainDesc">
   	  							<h4>Gunungkidul</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS POLRES GUNUNGKIDUL</button></a>
+  	  								<a href="tel:0274391890"><button class="btn large">TELEPON/SMS POLRES GUNUNGKIDUL</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -245,14 +256,15 @@
 				<div class="button">
 					<button class="btn large main">KORUPSI - KOLUSI - NEPOTISME</button>
 					<div class="button hidden">
+          <h4>indikasi korupsi-kolusi-nepotisme.</h4>
   	  					<div class="button">
-  	  						<a href="tel:02125578389"><button class="btn large submain">TELEPON KPK</button></a>
+  	  						<a href="tel:02125578389"><button class="btn large">TELEPON KPK</button></a>
   	  					</div>
   	  					<div class="button">
-  	  						<a href="sms:08558575575"><button class="btn large submain">SMS KPK 1</button></a>
+  	  						<a href="sms:08558575575"><button class="btn large">SMS KPK 1</button></a>
   	  					</div>
   	  					<div class="button">
-  	  						<a href="sms:0811959575"><button class="btn large submain">SMS KPK 2</button></a>
+  	  						<a href="sms:0811959575"><button class="btn large">SMS KPK 2</button></a>
   	  					</div>
   	  					<div class="button">
   	  						<button class="btn large refresh submain">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -262,8 +274,9 @@
 				<div class="button">
 		  		  	<button class="btn large main">PRODUK/LAYANAN MENGECEWAKAN</button>
 		  		  	<div class="button hidden">
+              <h4>buruknya layanan/produk.</h4>
   	  					<div class="button">
-  	  						<a href="tel:0274554457"><button class="btn large submain">TELEPON YLKI YOGYAKARTA</button></a>
+  	  						<a href="tel:0274554457"><button class="btn large">TELEPON YLKI YOGYAKARTA</button></a>
   	  					</div>
   	  					<div class="button">
   	  						<button class="btn large refresh submain">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -273,13 +286,13 @@
 		  		<div class="button">
 			  	  	<button class="btn large main">KEPADAMAN ALIRAN LISTRIK</button>
 			  	  	<div class="button hidden">
-  	  					<h4>Kepadaman listrik di</h4>
+  	  					<h4>listrik padam di</h4>
   	  					<div class="button">
   	  						<button class="btn large submain">KOTA</button>
   	  						<div class="button hidden submainDesc">
   	  							<h4>Kota</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS PLN KOTA</button></a>
+  	  								<a href="tel:0274123"><button class="btn large">TELEPON/SMS PLN KOTA</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -291,7 +304,7 @@
   	  						<div class="button hidden submainDesc">
   	  							<h4>Sleman</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS PLN SLEMAN</button></a>
+  	  								<a href="tel:0274868368"><button class="btn large">TELEPON/SMS PLN SLEMAN</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -303,7 +316,7 @@
   	  						<div class="button hidden submainDesc">
   	  							<h4>Bantul</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS PLN BANTUL</button></a>
+  	  								<a href="tel:0274367693"><button class="btn large">TELEPON/SMS PLN BANTUL</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -315,7 +328,7 @@
   	  						<div class="button hidden submainDesc">
   	  							<h4>Kulonprogo</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS PLN KULONPROGO</button></a>
+  	  								<a href="tel:0274773006"><button class="btn large">TELEPON/SMS PLN KULONPROGO</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -327,7 +340,7 @@
   	  						<div class="button hidden submainDesc">
   	  							<h4>Gunungkidul</h4>
   	  							<div class="button">
-  	  								<a href="tel:#"><button class="btn large">TELEPON/SMS PLN GUNUNGKIDUL</button></a>
+  	  								<a href="tel:0274391070"><button class="btn large">TELEPON/SMS PLN GUNUNGKIDUL</button></a>
   	  							</div>
   	  							<div class="button">  	  						
   	  								<button class="btn large refresh">&larr; Kembali ke PILIHAN LAPORAN</button>
@@ -340,24 +353,27 @@
   	  				</div>
 			  	</div>
 			<footer>
-				<hr />
-				<p>&copy;2015 Warga Daerah Istimewa Yogyakarta.</p>
+				<p class="white">
+          Jogja Lapor App v.15.03<br />
+          &copy;2015 Warga Daerah Istimewa Yogyakarta.<br /><br />
+          <a href="http://goo.gl/forms/Kw00fkW71e"><button class="btn small">Klik untuk mengirim masukan</button></a>
+        </p>
 			</footer>
   	  	</div>
 	</div>
 
-    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
     	$(function() {
-    		$(".main").hide().delay(500).slideDown(2000);
+    		$(".main").hide().slideDown(500);
     		$(".hidden").hide();
     	    $(".main").on("click", function(){
-    	    	$(this).next(".hidden").fadeToggle(500);
+    	    	$(this).next(".hidden").slideToggle(500);
     	    	$(".main").fadeToggle();
     	    	});
     	    $(".submain").on("click", function(){
-    	    	$(this).next(".hidden").fadeToggle(500);
+    	    	$(this).next(".hidden").slideToggle(500);
     	    	$(".submain").fadeToggle();
     	    	});
     	    $(".refresh").on("click", function(){
