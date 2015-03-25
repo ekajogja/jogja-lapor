@@ -4,7 +4,7 @@
     "creationData": {
       "projectTypeName": "com.intel.xdk.projecttype.webapp",
       "projectGuid": "41480382-96e6-40e2-a5e1-ea65cd18f0b1",
-      "lastModifiedDate": 1427283631818,
+      "lastModifiedDate": 1427321128421,
       "creationDate": 1427281186670
     },
     "XDK-app-designer": "false",
@@ -27,9 +27,18 @@
           "android-installLocation": "auto"
         },
         "isActive_": true,
-        "appName_": "Jogja Lapor",
+        "appName_": "Jogja Lapor!",
         "appID_": "com.ekajogja.jogjalapor",
-        "appAccess_": [],
+        "appAccess_": [
+          {
+            "launch-external": "yes",
+            "origin": "tel:*"
+          },
+          {
+            "launch-external": "yes",
+            "origin": "sms:*"
+          }
+        ],
         "icons_": [
           {
             "relPath": "img/36.png",
@@ -119,10 +128,10 @@
         "iosProvs_": [],
         "cordovaCLIVersion_": "4.1.2",
         "crosswalkVersion_": "10",
-        "appVersion_": "15.03",
+        "appVersion_": "15.03.1",
         "appAuthor_": "Eka Y Saputra",
         "appDescription_": "Laporkan kejahatan, bencana, narkoba, korupsi, dll. pada pihak berwenang di Yogyakarta.",
-        "appVersionCode_": "1"
+        "appVersionCode_": "2"
       },
       "Android-Crosswalk": {
         "platform_": "android",
